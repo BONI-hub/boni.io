@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+      <md-content  layout-xs="column" layout="row">
+        {% for post in site.posts limit:5 %}
+          <div flex-xs flex-gt-xs="20" layout="column">
+            <md-card>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img ng-src="img/posts/cover/{{ post.cover }}" class="md-card-image" alt="Washed Out"></a>
+              <md-card-title>
+                <md-card-title-text>
+                  <span class="md-headline"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span>
+                  <span class="md-subhead" style="color:rgba(0,0,0,0.26)">{{ post.date | date: "%b %-d, %Y" }}</span>
+                </md-card-title-text>
+              </md-card-title>
+              <md-card-content>
+                {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+              </md-card-content>
+              <md-card-actions layout="row" layout-align="end center">
+                <md-button class="md-icon-button" aria-label="Favorite" style="color:rgba(221, 44, 0, 0.73)">
+                  <i class="fa fa-heart"></i>
+                </md-button>
+                <md-button class="md-icon-button" aria-label="Share" style="color:rgb(140,158,255)">
+                  <i class="fa fa-share-alt"></i>
+                </md-button>
+              </md-card-actions>
+            </md-card>
+          </div>
+        {% endfor %}
+      </md-content>
