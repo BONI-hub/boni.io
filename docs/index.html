@@ -1,0 +1,28 @@
+---
+layout: default
+title: BONI Docs
+---
+
+<div class="container-fluid" >
+  <div class="row">
+    <div class="col-sm-2 col-sm-offset-2 screen-only" style="position: fixed;top: 120px;left: 0px;font-family: 'Open Sans', sans-serif;">
+      <ul class="nav nav-sidebar">
+        {% for post in site.posts reversed %}
+          {% if post.categories contains 'docs' %}
+            <li>
+              <a href="#{{ post.title }}">{{ post.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-sm-4 col-sm-offset-4" style="min-width: 50%;line-height: 200%; color: #757272; text-align: justify;float: left;font-family: 'Open Sans', sans-serif;">
+      {% for post in site.posts reversed %}
+        {% if post.categories contains 'docs' %}
+          <a name="{{ post.title }}"><h1 class="post-title" itemprop="name headline" style="padding-bottom: 20px;padding-top: 30px;">{{ post.title }}</h1></a>
+          <div style="padding-bottom: 20px;">{{ post.content }}</div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
