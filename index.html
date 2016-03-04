@@ -9,7 +9,6 @@ title: BONI
       <h1>BONI is under development</h1>
       {% for post in site.posts %}
         {% if post.categories contains 'home' %}
-          <a name="{{ post.title }}"><h1 class="post-title" itemprop="name headline" style="padding-bottom: 20px;padding-top: 30px;">{{ post.title }}</h1></a>
           <div style="padding-bottom: 20px;">{{ post.content }}</div>
         {% endif %}
       {% endfor %}
