@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Started"
 date:   2016-1-1 09:25:09 +0200
-categories: docs
+categories: docs home
 ---
 
 The BONI platform provides a complete backend solution for your mobile application that facilitate interaction with Bluetooth Low Energy Beacons (iBeacons).
