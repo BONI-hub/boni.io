@@ -10,4 +10,4 @@ BONI Spot is an abstraction of real location (indoor or outdoor) that has corres
 * Major ID
 * Minor Is
 
-Each virtual BONI Spot has this identifiers also and **Spot name**. It makes it easy to refer the BONI spot.
+Each virtual BONI Spot has the same identifiers as well as **Spot name**. It makes it easy to refer the BONI spot.
