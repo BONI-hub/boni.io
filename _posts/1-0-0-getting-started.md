@@ -5,7 +5,7 @@ date:   2016-1-1 09:25:09 +0200
 categories: docs home
 ---
 
-The BONI platform provides a complete backend solution for your mobile application that facilitate interaction with Bluetooth Low Energy Beacons (iBeacons).
+The BONI platform provides a complete backend solution for your mobile application that facilitate the interaction with Bluetooth Low Energy Beacons (iBeacons).
 
 Once you install the BONI SDK, your mobile app will be able to detect Bluetooth Low Energy Beacons. Once the beacon has been detected, the BONI SDK gets the payload that receive from it and send it to BONI Server that exchange the beacon payload for predefined content and send it back to the mobile app.
 
