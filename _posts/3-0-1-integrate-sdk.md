@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Installation"
+title:  "Integrate SDK"
 date:   2016-1-3 09:25:09 +0200
-categories: docs
+categories: docs integrate-sdk
 ---
 BONI SDK is a Cordova plugin. This means that you can create with it Hybrid mobile apps that can run on various mobile operating systems such as iOS, Android, Windows etc.
 
