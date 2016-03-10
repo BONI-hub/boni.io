@@ -2,7 +2,7 @@
 layout: post
 title:  "Spot"
 date:   2016-1-2 09:25:09 +0200
-categories: docs
+categories: docs spot
 ---
 BONI Spot is an abstraction of real location (indoor or outdoor) that has corresponding iBeacon. The iBeacon has 3 identifiers:
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Started"
 date:   2016-1-1 09:25:09 +0200
-categories: docs home
+categories: docs
 ---
 
 The BONI platform provides a complete backend solution for your mobile application that facilitate the interaction with Bluetooth Low Energy Beacons (iBeacons).
@@ -15,6 +15,6 @@ BONI SDK is the Content gateway for your mobile app. It takes care about iBeacon
 
 BONI Console is a lightweight Content Management System that helps you to organize your BONI Content and map it to BONI Spot.
 
-Our goal is to enable developers to start create smarter mobile apps with no need for writing server code or maintaining servers. 
+Our goal is to enable developers to start create smarter mobile apps with no need for writing server code or maintaining servers.
 
 Our SDK is ready to use out of the box with minimal configuration on your part.
