@@ -11,7 +11,7 @@ Once you install the BONI SDK, your mobile app will be able to detect Bluetooth 
 
 ![BONI Diagram]({{ site.github.url }}/img/docs/diagram.png)
 
-BONI SDK is the Content gateway for your mobile app. It takes care about iBeacon detection and delivering of appropreate Content.
+BONI SDK is the Content gateway for your mobile app. It takes care about iBeacon detection and delivering of appropriate Content.
 
 BONI Console is a lightweight Content Management System that helps you to organize your BONI Content and map it to BONI Spot.
 
