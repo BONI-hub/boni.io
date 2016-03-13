@@ -18,7 +18,7 @@ All subsequent commands need to be run within the project's directory, or any su
 $ cd hello-boni
 {% endhighlight %}
 
-Add the platforms that you want to target your app. We will add the 'ios' and 'android' platform and ensure they get saved to `config.xml`:
+Add the platforms that you want to target your app. We will add the `ios` and `android` platform and ensure they get saved to `config.xml`:
 
 {% highlight sh %}
 $ cordova platform add ios --save

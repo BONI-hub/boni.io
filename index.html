@@ -153,7 +153,7 @@ title: BONI
     <md-content class="md-padding" layout-xs="column" layout="row">
       <div flex-xs flex-gt-xs="50" layout="column">
         <md-card class="action-card">
-          <a href="#">
+          <a href="https://github.com/BONI-hub/sample-project-hello-boni">
             <md-card-title>
               <md-card-title-media class="icon">
                 <img src="img/icons/download-startup-app.png"/>
@@ -215,22 +215,23 @@ title: BONI
       </div>
       {% endif %}
     {% endfor %}
-    <md-button href="#create-spot" class="md-raised md-accent page-scroll" style="margin-top: 50px;">Create BONI Spot</md-button>
+    <md-button href="#add-code" class="md-raised md-accent page-scroll" style="margin-top: 50px;">Write Some Code</md-button>
   </div>
 </div>
 
-<div class="container section" id="create-spot">
+<div class="container section" id="add-code">
   <div class="row">
     <div class="col-lg-12 text-center">
-      <h2 class="section-heading">Create BONI Spot</h2>
+      <h2 class="section-heading">Write Some Code</h2>
       <h3 class="section-subheading text-muted"></h3>
     </div>
     {% for post in site.posts reversed %}
-      {% if post.categories contains 'spot' %}
+      {% if post.categories contains 'api' %}
       <div style="font-family: 'Open Sans', sans-serif;">
         {{ post.content }}
       </div>
       {% endif %}
     {% endfor %}
+    <md-button href="http://console.boni.io/" class="md-raised md-accent page-scroll" style="margin-top: 50px;">Create BONI Spot</md-button>
   </div>
 </div>
