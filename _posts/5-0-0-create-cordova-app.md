@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Create Cordova App"
-date:   2016-1-4 09:25:09 +0200
+date:   2016-1-5 09:25:09 +0200
 categories: docs create-cordova-app
 ---
 Go to the directory where you maintain your source code, and create a cordova project:
