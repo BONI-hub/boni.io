@@ -16,7 +16,7 @@ title: BONI Docs
         {% endfor %}
       </ul>
     </div>
-    <div class="col-sm-4 col-sm-offset-4" style="min-width: 50%;line-height: 200%; color: #757272; text-align: justify;float: left;font-family: 'Open Sans', sans-serif;">
+    <div class="col-sm-4 col-sm-offset-4 doc-section" style="min-width: 50%;line-height: 200%; color: #757272; text-align: justify;float: left;font-family: 'Open Sans', sans-serif;">
       {% for post in site.posts reversed %}
         {% if post.categories contains 'docs' %}
           <a name="{{ post.title }}"><h1 class="post-title" itemprop="name headline" style="padding-bottom: 20px;padding-top: 30px;">{{ post.title }}</h1></a>
