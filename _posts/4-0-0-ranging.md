@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Ranging"
+route: "ranging"
 date:   2016-1-4 09:24:09 +0200
 categories: docs
 ---

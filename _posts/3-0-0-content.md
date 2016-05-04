@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Content"
+route: "content"
 date:   2016-1-3 09:24:09 +0200
 categories: docs
 ---

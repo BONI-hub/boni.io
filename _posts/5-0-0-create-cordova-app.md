@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Create Cordova App"
+route: "create-cordova-app"
 date:   2016-1-5 09:25:09 +0200
 categories: docs create-cordova-app
 ---

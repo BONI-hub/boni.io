@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Integrate SDK In My App"
+route: "integrate-sdk-in-my-app"
 date:   2016-1-6 09:25:09 +0200
 categories: docs sdk
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Getting Started"
+route: "getting-started"
 date:   2016-1-1 09:25:09 +0200
 categories: docs
 ---

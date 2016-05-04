@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Spot"
+route: "spot"
 date:   2016-1-2 09:25:09 +0200
 categories: docs spot
 ---
