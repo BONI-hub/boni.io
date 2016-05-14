@@ -237,6 +237,9 @@ header .intro-text {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+header .intro-text h1 {
+  margin-bottom: 50px;
+}
 header .intro-text .intro-lead-in {
   font-style: italic;
   font-size: 22px;
@@ -254,36 +257,41 @@ header .call-to-action-btn {
   font-size: 1.6rem;
   background: #169CEE;
   color: #fff;
-  padding: 0 22px;
+  padding: 15px 20px;
   border-radius: 4px;
-  border: none;
-  outline: 0;
-  height: 43px;
-  line-height: 41px;
-  min-width: 300px;
 }
 header .call-to-action-btn:hover {
-  background: #0c6fab !important;
+  background: #168aee;
   color: #fff;
+  text-decoration: none;
+}
+header .call-to-action-btn:link {
+  color: #fff;
+  text-decoration: none;
 }
 header .sub-call-to-action-btn {
+  margin-left: 20px;
   font-size: 1.6rem;
-  background: #ffffff;
+  background: #fff ;
   color: #169CEE;
-  padding: 0 22px;
+  padding: 15px 20px;
   border-radius: 4px;
-  border: none;
-  outline: 0;
-  height: 43px;
-  line-height: 41px;
-  border-style: solid;
-  border-width: 1px;
-  min-width: 300px;
+  border: solid 1px;
+}
+header .sub-call-to-action-btn:hover {
+  color: #fff;
+  background: #168aee;
+  border-color: #168aee;
+  text-decoration: none;
+}
+header .sub-call-to-action-btn:link {
+  text-decoration: none;
 }
 .section {
   background: #2195D3;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
 }
 .section h1 {
   color: #ffffff;
@@ -308,12 +316,15 @@ header .sub-call-to-action-btn {
 }
 .section .button:hover {
   background: #DAFBFF;
+}
+.section .button:link {
   text-decoration: none;
 }
 .section-white {
   background: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
 }
 .section-white h1 {
   color: #555572;
@@ -340,12 +351,15 @@ header .sub-call-to-action-btn {
 }
 .section-white .button:hover {
   background: #DAFBFF;
+}
+.section-white .button:link {
   text-decoration: none;
 }
 .section-gray {
   background: #52526E;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
 }
 .section-gray h1 {
   color: #ffffff;
@@ -370,6 +384,8 @@ header .sub-call-to-action-btn {
 }
 .section-gray .button:hover {
   background: #DAFBFF;
+}
+.section-gray .button:link {
   text-decoration: none;
 }
 @media (min-width: 768px) {
