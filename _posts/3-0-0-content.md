@@ -15,4 +15,4 @@ Based on the information that is represented by the content item there are diffe
 
 * URL + Image - contains URL and supplementary image
 
-Once the BONI Spot (its iBeacon) has been detected, the content item will delivered to the mobile app.
+Once the BONI Spot (its iBeacon) has been detected, the content item will be delivered to the mobile app.

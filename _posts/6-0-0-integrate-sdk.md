@@ -3,7 +3,7 @@ layout: post
 title:  "Integrate SDK In My App"
 route: "integrate-sdk-in-my-app"
 date:   2016-1-6 09:25:09 +0200
-categories: getting-started sdk
+categories: docs getting-started sdk
 ---
 `BONI SDK` is currently distributed as Cordova Plugin. This means that you can create with it Hybrid mobile apps or create a new app that can run on various mobile operating systems such as iOS, Android, Windows, etc.
 
