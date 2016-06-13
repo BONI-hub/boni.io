@@ -1,0 +1,142 @@
+---
+layout: default
+title: BONI Docs
+---
+
+<div class="container section" id="quickstart">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading">Quick Start Guide</h2>
+      <h3 class="section-subheading text-muted"></h3>
+    </div>
+  </div>
+  <div class="row">
+    <md-content class="md-padding" layout-xs="column" layout="row">
+      <div flex-xs flex-gt-xs="50" layout="column">
+        <md-card class="action-card">
+          <a href="#create-new-app">
+            <md-card-title>
+              <md-card-title-media class="icon">
+                <img src="../img/icons/new-project.png"/>
+              </md-card-title-media>
+              <md-card-title-text>
+                <span class="md-headline title">Create New App</span>
+                <span class="md-subhead">Create new mobile app that can receive information from the world around</span>
+              </md-card-title-text>
+            </md-card-title>
+          </a>
+        </md-card>
+      </div>
+      <div flex-xs flex-gt-xs="50" layout="column">
+        <md-card class="action-card">
+          <a href="#integrate-sdk-in-my-app">
+          <md-card-title>
+            <md-card-title-media class="icon">
+              <img src="../img/icons/integrate.png"/>
+            </md-card-title-media>
+            <md-card-title-text>
+              <span class="md-headline title">Integrate SDK In My App</span>
+              <span class="md-subhead">Integrate BONI in Your mobile app and start receive information from the world around</span>
+            </md-card-title-text>
+          </md-card-title>
+        </a>
+        </md-card>
+      </div>
+    </md-content>
+  </div>
+</div>
+
+<div class="container section" id="create-new-app">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading">Create New App</h2>
+      <h3 class="section-subheading text-muted"></h3>
+    </div>
+  </div>
+  <div class="row">
+    <md-content class="md-padding" layout-xs="column" layout="row">
+      <div flex-xs flex-gt-xs="50" layout="column">
+        <md-card class="action-card">
+          <a href="https://github.com/BONI-hub/sample-project-hello-boni">
+            <md-card-title>
+              <md-card-title-media class="icon">
+                <img src="../img/icons/download-startup-app.png"/>
+              </md-card-title-media>
+              <md-card-title-text>
+                <span class="md-headline title">Download Startup App</span>
+                <span class="md-subhead">Download startup Cordova app that has integrated BONI SDK</span>
+              </md-card-title-text>
+            </md-card-title>
+          </a>
+        </md-card>
+      </div>
+      <div flex-xs flex-gt-xs="50" layout="column">
+        <md-card class="action-card">
+          <a href="#create-cordova-app">
+          <md-card-title>
+            <md-card-title-media class="icon">
+              <img src="../img/icons/create-cordova-app.png"/>
+            </md-card-title-media>
+            <md-card-title-text>
+              <span class="md-headline title">Create Cordova App</span>
+              <span class="md-subhead">Create Cordova mobile app and integrate BONI SDK in it in step-by-step manner</span>
+            </md-card-title-text>
+          </md-card-title>
+        </a>
+        </md-card>
+      </div>
+    </md-content>
+  </div>
+</div>
+
+<div class="container section" id="create-cordova-app">
+  <div class="row">
+    {% for post in site.posts reversed %}
+      {% if post.categories contains 'create-cordova-app' %}
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ post.title }}</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+      <div style="font-family: 'Open Sans', sans-serif;">
+        {{ post.content }}
+      </div>
+      {% endif %}
+    {% endfor %}
+    <md-button href="#integrate-sdk-in-my-app" class="md-raised md-accent page-scroll" style="margin-top: 50px;">Integrate SDK In My App</md-button>
+  </div>
+</div>
+
+<div class="container section" id="integrate-sdk-in-my-app">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading">Integrate SDK In My App</h2>
+      <h3 class="section-subheading text-muted"></h3>
+    </div>
+    {% for post in site.posts reversed %}
+      {% if post.categories contains 'sdk' %}
+      <div style="font-family: 'Open Sans', sans-serif;">
+        {{ post.content }}
+      </div>
+      {% endif %}
+    {% endfor %}
+    <md-button href="#write-some-code" class="md-raised md-accent page-scroll" style="margin-top: 50px;">Write Some Code</md-button>
+  </div>
+</div>
+
+<div class="container section" id="write-some-code">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading">Write Some Code</h2>
+      <h3 class="section-subheading text-muted"></h3>
+    </div>
+    {% for post in site.posts reversed %}
+      {% if post.categories contains 'api' %}
+      <div style="font-family: 'Open Sans', sans-serif;">
+        {{ post.content }}
+      </div>
+      {% endif %}
+    {% endfor %}
+    <md-button href="http://console.boni.io/" class="md-raised md-accent page-scroll" style="margin-top: 50px;">Create BONI Spot</md-button>
+  </div>
+</div>
+
