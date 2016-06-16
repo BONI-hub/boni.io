@@ -2,7 +2,7 @@
 layout: default
 ---
 
-      <md-content  layout-xs="column" layout="row" style="font-family: 'Open Sans', sans-serif;">
+      <md-content  layout-xs="column" layout="row" style="font-family: 'Open Sans', sans-serif; padding-top: 50px;">
         {% for post in site.posts limit:5 %}
           {% if post.categories contains 'blog' %}
             <div flex-xs flex-gt-xs="20" layout="column">

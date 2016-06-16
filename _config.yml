@@ -9,9 +9,9 @@
 title: BONI Blog
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We know how important is the content. That's why we created BONI.
+  BONI helps you to create exciting content and pin it up to
+  object or place and then deliver it when an end user is nearby.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://boni.io" # the base hostname & protocol for your site
 

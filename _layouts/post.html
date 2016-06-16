@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <div class="col-lg-8 col-md-offset-2" style="font-family: 'Open Sans', sans-serif;">
+  <div class="col-lg-8 col-md-offset-2" style="font-family: 'Open Sans', sans-serif;padding-top: 100px;">
 
     {% assign author = site.authors[page.author] %}
     <header>
@@ -11,7 +11,7 @@ layout: default
         <div class="col-md-2">
           <img src="{{ "/img/avatar/" | prepend: site.github.url }}{{author.avatar }}"/>
         </div>
-        <div class="col-md-10">
+        <div class="col-md-10" style="text-align: left;">
           <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
           <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if author.display_name %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.display_name }}</span></span>{% endif %}</p>
         </div>
